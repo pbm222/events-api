@@ -1,9 +1,9 @@
-package com.entain.events_api.sport_events.controller;
+package com.entain.events_api.events.sport_events.controller;
 
-import com.entain.events_api.sport_events.dto.SportEventDto;
-import com.entain.events_api.sport_events.dto.SportEventStatusChangeDto;
-import com.entain.events_api.sport_events.model.EventStatus;
-import com.entain.events_api.sport_events.service.SportEventsService;
+import com.entain.events_api.events.sport_events.dto.SportEventStatusChangeDto;
+import com.entain.events_api.events.sport_events.model.EventStatus;
+import com.entain.events_api.events.sport_events.service.SportEventsService;
+import com.entain.events_api.events.sport_events.dto.SportEventDto;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -24,6 +24,8 @@ public class SportEventsController {
     }
 
     @GetMapping
+    // * The annotation could be placed on the controller to reduce code repetition,
+    // however in real life each method usually has different role/privilege required
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<List<SportEventDto>> getSportEventsByStatusAndSport(
             @RequestParam(value = "status", required = false) EventStatus status,

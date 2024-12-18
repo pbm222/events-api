@@ -1,4 +1,4 @@
-package com.entain.events_api.sport_events.model;
+package com.entain.events_api.events.sport_events.model;
 
 public enum EventStatus {
     INACTIVE,

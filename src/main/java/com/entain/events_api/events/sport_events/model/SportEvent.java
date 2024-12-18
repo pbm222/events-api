@@ -1,4 +1,4 @@
-package com.entain.events_api.sport_events.model;
+package com.entain.events_api.events.sport_events.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -20,8 +20,7 @@ public class SportEvent {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    //@NotNull
-    //@Column(nullable = false)
+    @Column(nullable = false)
     private String name;
 
     private String sport;

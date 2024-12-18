@@ -1,6 +1,6 @@
-package com.entain.events_api.sport_events.dto;
+package com.entain.events_api.events.sport_events.dto;
 
-import com.entain.events_api.sport_events.model.EventStatus;
+import com.entain.events_api.events.sport_events.model.EventStatus;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
 import lombok.Getter;

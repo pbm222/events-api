@@ -1,4 +1,4 @@
-package com.entain.events_api.sport_events.controller;
+package com.entain.events_api.events.sport_events.controller;
 
 import com.entain.events_api.exception.InvalidEventStatusChangeException;
 import org.springframework.http.HttpStatus;

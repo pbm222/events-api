@@ -1,7 +1,7 @@
-package com.entain.events_api.sport_events.repository;
+package com.entain.events_api.events.sport_events.repository;
 
-import com.entain.events_api.sport_events.model.EventStatus;
-import com.entain.events_api.sport_events.model.SportEvent;
+import com.entain.events_api.events.sport_events.model.EventStatus;
+import com.entain.events_api.events.sport_events.model.SportEvent;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

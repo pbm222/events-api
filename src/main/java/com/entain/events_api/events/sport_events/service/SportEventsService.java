@@ -1,11 +1,11 @@
-package com.entain.events_api.sport_events.service;
+package com.entain.events_api.events.sport_events.service;
 
-import com.entain.events_api.sport_events.dto.SportEventDto;
+import com.entain.events_api.events.sport_events.dto.SportEventDto;
 import com.entain.events_api.exception.SportEventNotFoundException;
-import com.entain.events_api.sport_events.mapper.SportEventMapper;
-import com.entain.events_api.sport_events.model.EventStatus;
-import com.entain.events_api.sport_events.model.SportEvent;
-import com.entain.events_api.sport_events.repository.SportEventsRepository;
+import com.entain.events_api.events.sport_events.mapper.SportEventMapper;
+import com.entain.events_api.events.sport_events.model.EventStatus;
+import com.entain.events_api.events.sport_events.model.SportEvent;
+import com.entain.events_api.events.sport_events.repository.SportEventsRepository;
 import com.entain.events_api.utils.EventStatusValidator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

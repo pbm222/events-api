@@ -1,4 +1,4 @@
-package com.entain.events_api.sport_events.dto;
+package com.entain.events_api.events.sport_events.dto;
 
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;

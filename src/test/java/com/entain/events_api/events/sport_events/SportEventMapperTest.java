@@ -1,9 +1,9 @@
-package com.entain.events_api.sport_events;
+package com.entain.events_api.events.sport_events;
 
-import com.entain.events_api.sport_events.dto.SportEventDto;
-import com.entain.events_api.sport_events.mapper.SportEventMapper;
-import com.entain.events_api.sport_events.model.EventStatus;
-import com.entain.events_api.sport_events.model.SportEvent;
+import com.entain.events_api.events.sport_events.dto.SportEventDto;
+import com.entain.events_api.events.sport_events.mapper.SportEventMapper;
+import com.entain.events_api.events.sport_events.model.EventStatus;
+import com.entain.events_api.events.sport_events.model.SportEvent;
 import org.junit.jupiter.api.Test;
 import org.mapstruct.factory.Mappers;
 

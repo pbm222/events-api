@@ -1,7 +1,7 @@
-package com.entain.events_api.sport_events.mapper;
+package com.entain.events_api.events.sport_events.mapper;
 
-import com.entain.events_api.sport_events.dto.SportEventDto;
-import com.entain.events_api.sport_events.model.SportEvent;
+import com.entain.events_api.events.sport_events.dto.SportEventDto;
+import com.entain.events_api.events.sport_events.model.SportEvent;
 import org.mapstruct.Mapper;
 
 import java.util.List;

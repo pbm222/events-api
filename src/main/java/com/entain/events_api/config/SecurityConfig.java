@@ -1,4 +1,4 @@
-package com.entain.events_api;
+package com.entain.events_api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
-        http.csrf(AbstractHttpConfigurer::disable);
+        http.csrf(AbstractHttpConfigurer::disable); //* Disable for development and testing purposes
         http
                 .authorizeHttpRequests((authorize) -> {
                     authorize

@@ -1,12 +1,12 @@
 package com.entain.events_api.utils;
 
 import com.entain.events_api.exception.InvalidEventStatusChangeException;
-import com.entain.events_api.sport_events.model.EventStatus;
-import com.entain.events_api.sport_events.model.SportEvent;
+import com.entain.events_api.events.sport_events.model.EventStatus;
+import com.entain.events_api.events.sport_events.model.SportEvent;
 
 import java.time.LocalDateTime;
 
-import static com.entain.events_api.sport_events.model.EventStatus.*;
+import static com.entain.events_api.events.sport_events.model.EventStatus.*;
 
 public class EventStatusValidator {
 

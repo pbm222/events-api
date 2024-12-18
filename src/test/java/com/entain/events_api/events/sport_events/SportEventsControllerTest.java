@@ -1,10 +1,10 @@
-package com.entain.events_api.sport_events;
+package com.entain.events_api.events.sport_events;
 
-import com.entain.events_api.sport_events.controller.SportEventsController;
-import com.entain.events_api.sport_events.dto.SportEventDto;
-import com.entain.events_api.sport_events.dto.SportEventStatusChangeDto;
-import com.entain.events_api.sport_events.model.EventStatus;
-import com.entain.events_api.sport_events.service.SportEventsService;
+import com.entain.events_api.events.sport_events.controller.SportEventsController;
+import com.entain.events_api.events.sport_events.dto.SportEventDto;
+import com.entain.events_api.events.sport_events.dto.SportEventStatusChangeDto;
+import com.entain.events_api.events.sport_events.model.EventStatus;
+import com.entain.events_api.events.sport_events.service.SportEventsService;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
